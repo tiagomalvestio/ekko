@@ -1,0 +1,19 @@
+{
+  "repository": {
+    "baseUrl": "https://raw.githubusercontent.com/tiagomalvestio/ekko/main"
+  },
+  "assets": {
+    "wallpaper": {
+      "enabled": true,
+      "path": "images/wallpaper.jpeg"
+    },
+    "lockscreen": {
+      "enabled": true,
+      "path": "images/lockscreen.png"
+    },
+    "bginfo": {
+      "enabled": true,
+      "path": "bginfo/TIMENOW.bgi"
+    }
+  }
+}

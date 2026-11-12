@@ -1,0 +1,20 @@
+# TIMENOW Corporate Visual Agent
+
+## Arquivos
+- `TIMENOW-Agent.ps1`: agente instalado pelo Intune.
+- `config.json`: caminhos e ativação dos recursos.
+
+## Publicação no GitHub
+Publique `TIMENOW-Agent.ps1` e `config.json` na raiz do repositório `ekko`.
+Mantenha também:
+- `images/wallpaper.jpeg`
+- `images/lockscreen.png`
+- `bginfo/TIMENOW.bgi`
+
+## Intune
+Crie/edite o script de plataforma para executar `TIMENOW-Agent.ps1`:
+- Executar usando credenciais do usuário conectado: **Não**
+- Verificação de assinatura: **Não** (até assinar o script)
+- Executar em PowerShell 64 bits: **Sim**
+
+O script instala tarefas agendadas SYSTEM e usuário. O agente consulta `config.json` a cada 6 horas.
